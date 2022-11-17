@@ -1,6 +1,7 @@
 # Kodluyoruz_Veri_Yapilari_ve_Algoritmalar_Odevler
 
 ## Proje 1
+
 ```
 
 [22,27,16,2,18,6] -> Insertion Sort
@@ -36,3 +37,31 @@ siralandiktan sonra ortada kaldigi icin Average Case olur
 [2,3,4,5,7,9,8,15,6]
 [2,3,4,5,6,9,8,15,7]
 ```
+
+
+## Proje 2
+
+
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+```
+
+[16,21,11]  [8,12,22]
+[16,21]  [11] . [8,12] [22]
+[16] [21] [11]  [8] [12] [22]
+[16] . [11,21] . [8] .[12,22]
+[11,16,21] . [8,12,22]
+[8,11,12,16,21,22]
+
+```
+
+
+
+
+
+
+
+
+
